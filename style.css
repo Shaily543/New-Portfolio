@@ -718,7 +718,7 @@ a{
 .............................................................................................................................................. */
 /* FOOTER, scroll icon, loader */
 #footer {
-    width: 90vw;
+    width: 100%;
     color: white;
     background-color: #3c0513c8;
     text-align: center;
@@ -731,7 +731,6 @@ a{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: blue;
 }
 
 .contHead {
