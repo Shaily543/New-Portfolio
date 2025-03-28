@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link id="theme-style" rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Agbalumo&family=Alumni+Sans+Collegiate+One:ital@0;1&family=Bubbler+One&family=Bungee
+    &family=Bungee+Inline&family=Bungee+Shade&family=Cabin+Sketch:wght@400;700&family=Caprasimo&family=Chango&family=DotGothic16&family=Doto:wght@100..900&fa
+    mily=Fascinate+Inline&family=Faster+One&family=Grenze+Gotisch:wght@100..900&family=Knewave&family=Lemon&family=Libre+Barcode+39+Text&family=Limelight&fam
+    ily=Megrim&family=Monoton&family=Notable&family=Rampart+One&family=Rubik+Dirt&family=Rubik+Moonrocks&family=Saira+Stencil+One&family=Sigmar+One&family=Va
+    st+Shadow&family=Wallpoet&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body ID="skillsBODY" class="winky-san">
+    <div id="loader">
+        <p class="loading-text">Loading</p>
+        <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+    
+        
+    <div class="cursor"></div>
+    <div class="shaily">SHAILY</div>
+    <div id="nav2">
+        
+        <ul>
+            <li class="listItem"><a href="index.html">Home</a></li>
+            <li class="listItem"><a href="education.html">Education</a></li>
+            <li class="listItem1"><a href="skills.html">Skills</a></li>
+            <li class="listItem"><a href="projects.html">Projects</a></li>
+            <li><button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark Mode</button></li>
+        </ul>
+    </div>
+    <div class="scroll-down">
+        <span>Scroll Down</span>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+    
+    <div id="content">
+        <h2 id="skill_description">My Skills Toolbox</h2>
+        <div class="cont">
+        <div><img src="skill_map.png" alt="" data-aos="zoom-in" data-aos-duration="3000"></div>
+        <div class="chart-container">
+           <canvas id="myBarChart"></canvas>
+        </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br>
+
+    <span id="skill_box_head">Let's categorize my skills</span>
+    <div id="skill_box_div">
+        <div class="skill_box">
+            <div class="skill_boxs" data-aos="zoom-in" data-aos-duration="8000"><strong>Programming Languages:</strong> C, C++, JavaScript, Python</div>
+            <div class="skill_boxs" data-aos="zoom-in" data-aos-duration="8000"><strong>Data Analysis & Visualization:</strong> Pandas, NumPy, Matplotlib</div>
+            <div class="skill_boxs" data-aos="zoom-in" data-aos-duration="8000"><strong>Machine Learning:</strong> Scikit-Learn, TensorFlow, Model Evaluation</div>
+            <div class="skill_boxs" data-aos="zoom-in" data-aos-duration="8000"><strong>Tools & Software:</strong> VS Code, MySQL Workbench, MATLAB, CodeBlocks</div>
+            <div class="skill_boxs" data-aos="zoom-in" data-aos-duration="8000"><strong>Web Development:</strong> HTML, CSS, JavaScript</div>
+            <div class="skill_boxs" data-aos="zoom-in" data-aos-duration="8000"><strong>Hardware & Electronics:</strong> Microcontrolers, sensors</div>
+            <div class="skill_boxs" data-aos="zoom-in" data-aos-duration="8000"><strong>Simulation Software:</strong> Proteus, Solidworks, Simulink, PsPice</div>
+            <div class="skill_boxs" data-aos="zoom-in" data-aos-duration="8000"><strong>Soft Skills:</strong> Problem-solving, Communication</div>
+        </div>
+        <img src="skill_main.png" alt="">
+    </div>
+
+
+    <div id="footer" data-aos="zoom-in" data-aos-duration="10000">
+        <div class="contact-container">
+            <div id="column1">
+            <div class="contHead" data-aos="zoom-in" data-aos-duration="2000">Get in Touch</div>
+            <p >Feel free to get connected to social media</p>
+            <div class="contact-icons">
+                <a href="https://github.com/username" target="_blank"><i class='bx bxl-github'></i></a> 
+                <a href="https://linkedin.com/in/username" target="_blank"><i class='bx bxl-linkedin'></i></a> 
+                <a href="https://twitter.com/username" target="_blank"><i class='bx bxl-twitter'></i></a> 
+                <a href="https://twitter.com/username" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/username" target="_blank"><i class='bx bxl-youtube'></i></a>
+            </div>
+            <div>Or reach out via email
+                <div class="contact-icons"><a href="mailto:shaily119145@gmail.com"><i class='bx bx-envelope'></i></a></div>
+            </div>
+            </div>
+            <div id="column2"><div class="contHead" data-aos="zoom-in" data-aos-duration="2000">Contact Information:</div>
+            <div id="cont">
+                <div id="email" data-aos="zoom-in" data-aos-duration="8000"><strong>Email:</strong> shaily119145@gmail.com </div>
+                <div id="phn" data-aos="zoom-in" data-aos-duration="8000"><Strong>Phone:</Strong> +88 01724-269596 </div>
+            </div>
+            </div>
+            <div id="column3"><div class="contHead" data-aos="zoom-in" data-aos-duration="2000">Menu:</div>
+                <div class="menu">
+                <div class="menu_item"><a href="index.html">Home</a></div>
+                <div class="menu_item"><a href="education.html">Education</a></div>
+                <div class="menu_item"><a href="skills.html">Skills</a></div>
+                <div class="menu_item"><a href="projects.html">Projects</a></div>
+                <div class="menu_item"><a href="cv.html">Resume</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="last">
+            <div class="last_sub" style="text-align: left;">&copy; <span id="year"></span>. Shaily Baul. All rights reserved.</div>
+            <div class="last_sub">Special Thanks to <a href="https://undraw.co/" style="color: #1e0426;">unDraw</a> for illustrations</div>
+        </div>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script>AOS.init();</script>
+    <script>
+        window.addEventListener("load", function () {
+            gsap.to(".dot", {
+            opacity: 1,
+            y: -10,
+            duration: 0.5,
+            repeat: -1,
+            stagger: 0.2,
+            yoyo: true,
+            ease: "power1.inOut"
+        });
+            gsap.to("#loader", {
+                duration: 1.5,         
+                opacity: 0,            
+                visibility: "hidden",  
+                delay: 0.5,            
+            });
+
+            AOS.init();
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("year").textContent = new Date().getFullYear();
+        });
+    </script>
+
+</body>
+</html>
