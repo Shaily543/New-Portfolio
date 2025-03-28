@@ -728,7 +728,7 @@ a{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 .contact-container{
-    width: 80vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
