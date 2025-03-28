@@ -727,7 +727,7 @@ a{
 .............................................................................................................................................. */
 /* FOOTER, scroll icon, loader */
 #footer {
-    width: 100vw;
+    width: 100%;
     color: #3c0513c8;
     background-color: #ffdfef9f;
     text-align: center;
@@ -737,7 +737,7 @@ a{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 .contact-container{
-    width: 80vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
